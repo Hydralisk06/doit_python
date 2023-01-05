@@ -1,0 +1,13 @@
+# 04 데이터 프레임의 세계로!
+
+# 데이터 프레임 만들기
+df_midterm = pd.DataFrame({'english': [90, 80, 60, 70],
+                           'math':    [50, 60, 100, 20],
+                           'nclass':  [1, 1, 2, 2]})
+# 외부 파일 불러오기
+# 엑셀 파일 불러오기
+df_exam = pd.read_excel('excel_exam.xlsx')
+# CSV 파일 불러오기
+df_csv_exam = pd.read_csv('exam.csv')
+# CSV 파일로 저장하기
+df_midterm.to_csv('output_newdata.csv')
