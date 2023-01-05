@@ -1,5 +1,2 @@
-# Python
-# Data Analytics
-# Data Science
-# Beginner
-# Learning
+# Hellow World!
+The first chapter of my programming career
