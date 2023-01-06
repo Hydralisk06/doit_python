@@ -11,3 +11,13 @@ df_exam = pd.read_excel('excel_exam.xlsx')
 df_csv_exam = pd.read_csv('exam.csv')
 # CSV 파일로 저장하기
 df_midterm.to_csv('output_newdata.csv')
+
+
+
+#데이터 분석 기초!
+
+#패키지 로드
+import pandas as pd
+import numpy as np
+
+
