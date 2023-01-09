@@ -35,7 +35,7 @@ mpg = mpg.rename(columns = {'manufacturer' : 'company'}
 
 #5. 파생변수 만들기
 mpg['total'] = (mpg['cty'] + mpg['hwy'])/2                      # 변수 조합
-mpg.'test'] = np.where(mpg['total'] >= 20, 'pass', 'fail')      # 조건문 활용
+mpg['test'] = np.where(mpg['total'] >= 20, 'pass', 'fail')      # 조건문 활용
 
 #6. 빈도 확인하기
 count_test = mpg['test'].value_counts()     # 빈도표 만들기
